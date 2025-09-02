@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nova Bistro - Modern Dining in Pottstown, PA</title>
+    <meta name="description" content="Nova Bistro offers modern cuisine with seasonal ingredients in Pottstown, PA. Experience refined dining with our curated menu and wine selection.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nova Bistro - Modern Dining in Pottstown, PA">
+    <meta property="og:description" content="Nova Bistro offers modern cuisine with seasonal ingredients in Pottstown, PA. Experience refined dining with our curated menu and wine selection.">
+    <meta property="og:image" content="/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Nova Bistro - Modern Dining in Pottstown, PA">
+    <meta property="twitter:description" content="Nova Bistro offers modern cuisine with seasonal ingredients in Pottstown, PA. Experience refined dining with our curated menu and wine selection.">
+    <meta property="twitter:image" content="/og-image.jpg">
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Header / Navigation -->
+    <header class="site-header" id="home">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="Nova Bistro home">
+                <span class="brand-mark" aria-hidden="true">✦</span>
+                <span class="brand-name">Nova Bistro</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+
+            <nav class="site-nav" id="siteNav" aria-label="Primary">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <h1 class="hero-title"><span class="accent">Nova</span> Bistro</h1>
+                <p class="hero-tagline">Modern cuisine crafted with seasonal ingredients in the heart of Pottstown.</p>
+                <a href="#menu" class="btn btn-accent">View Menu</a>
+            </div>
+            <div class="hero-glow" aria-hidden="true"></div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container two-col">
+                <div class="about-media" aria-hidden="true">
+                    <div class="about-image"></div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">About Us</h2>
+                    <p>
+                        At <strong>Nova Bistro</strong>, we celebrate seasonal ingredients and global flavors.
+                        Our chefs pair classic techniques with a modern sensibility to create memorable dishes in a warm, intimate space.
+                    </p>
+                    <p>
+                        Join us for dinner, a curated wine selection, and desserts that shine. We can&rsquo;t wait to welcome you.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="section" id="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="grid">
+                    <article class="menu-card">
+                        <h3 class="dish-name">Seared Atlantic Salmon</h3>
+                        <p class="dish-desc">Citrus beurre blanc, roasted asparagus, fingerling potatoes</p>
+                        <span class="dish-price">$28</span>
+                    </article>
+                    <article class="menu-card">
+                        <h3 class="dish-name">Truffle Mushroom Risotto</h3>
+                        <p class="dish-desc">Carnaroli rice, wild mushrooms, shaved parmesan, white truffle oil</p>
+                        <span class="dish-price">$26</span>
+                    </article>
+                    <article class="menu-card">
+                        <h3 class="dish-name">Herb Roasted Chicken</h3>
+                        <p class="dish-desc">Garlic jus, charred broccolini, creamy polenta</p>
+                        <span class="dish-price">$24</span>
+                    </article>
+                    <article class="menu-card">
+                        <h3 class="dish-name">Wagyu Beef Tenderloin</h3>
+                        <p class="dish-desc">Red wine reduction, roasted root vegetables, garlic mashed potatoes</p>
+                        <span class="dish-price">$42</span>
+                    </article>
+                    <article class="menu-card">
+                        <h3 class="dish-name">Lobster Ravioli</h3>
+                        <p class="dish-desc">House-made pasta, tarragon cream sauce, microgreens</p>
+                        <span class="dish-price">$32</span>
+                    </article>
+                    <article class="menu-card">
+                        <h3 class="dish-name">Chocolate Lava Cake</h3>
+                        <p class="dish-desc">Warm center, vanilla bean gelato, toasted pistachio</p>
+                        <span class="dish-price">$12</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact</h2>
+                    <p class="lead">We&rsquo;d love to hear from you.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="contact-label">Address</span>
+                            <span>123 Market St, Pottstown, PA 19464</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+16105551234">(610) 555-1234</a>
+                        </li>
+                        <li>
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:hello@novabistro.com">hello@novabistro.com</a>
+                        </li>
+                        <li>
+                            <span class="contact-label">Hours</span>
+                            <span>Mon-Thu: 5-10pm, Fri-Sat: 5-11pm, Sun: 4-9pm</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-formspree="https://formspree.io/f/YOUR_FORM_ID" novalidate>
+                    <div class="form-field">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                        <span class="field-error" id="nameError" aria-live="polite"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        <span class="field-error" id="emailError" aria-live="polite"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+                        <span class="field-error" id="messageError" aria-live="polite"></span>
+                    </div>
+                    <button type="submit" class="btn btn-accent full">Send Message</button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>
+                <span aria-hidden="true">✦</span>
+                <span> Nova Bistro &middot; Crafted with care</span>
+            </p>
+            <p class="small">&copy; <span id="year"></span> Nova Bistro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
